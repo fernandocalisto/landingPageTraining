@@ -34,19 +34,37 @@ strong{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+.presentation-subtitle {
+    font-family: 'Krona one' , sans-serif;
+    font-weight: 400;   
+    font-size: 24px;
+}
 .presentation-links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 .btn {
-    background-color: #22D4FD;
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
+    border: 2px solid #22D4FD;
     font-weight: 600;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
     font-family: 'montserrat', sans-serif;
+}
+.btn:hover {
+    background-color: #272727;
+    width: 390px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.3s;
 }
