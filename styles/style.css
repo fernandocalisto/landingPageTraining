@@ -17,7 +17,7 @@ strong{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10% 15%;
+    padding:5% 15%;
 }
 .presentation-content {
     width: 615px;
@@ -75,4 +75,19 @@ strong{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    font-weight: 400;
+}
+.header {
+    padding: 2% 0% 0% 15%;
+}
+.nav {
+    display: flex;
+    gap: 80px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
